@@ -2,7 +2,7 @@ import sys
 
 
 def main():
-    #while True:
+    while True:
 
     # Uncomment this block to pass the first stage
         sys.stdout.write("$ ")
