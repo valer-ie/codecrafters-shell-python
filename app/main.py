@@ -2,17 +2,17 @@ import sys
 
 
 def main():
-    while True:
+    #while True:
 
     # Uncomment this block to pass the first stage
         sys.stdout.write("$ ")
 
     # Wait for user input
         command = input()
-        if command == "exit 0":
-            sys.exit(0)
-
-        print(f"{command}: command not found")
+        if command == "echo ":
+            print(command[5:])
+        else:
+             print(f"{command}: command not found")
 
 
 
