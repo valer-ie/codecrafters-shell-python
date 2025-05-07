@@ -9,10 +9,12 @@ def main():
 
     # Wait for user input
         command = input()
-        print(command[5:])
-        # else:
-        #      print(f"{command}: command not found")
 
+        if command.startswith("echo"):
+            print(command[5:])
+        else:
+            print(f"{command}: command not found")
+        
 
 
 if __name__ == "__main__":
