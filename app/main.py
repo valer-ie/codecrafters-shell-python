@@ -9,7 +9,7 @@ def main():
 
     # Wait for user input
         command = input()
-        if command() == 0:
+        if command() in {"exit"}:
             exit
 
         print(f"{command}: command not found")
