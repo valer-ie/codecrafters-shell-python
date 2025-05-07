@@ -9,10 +9,9 @@ def main():
 
     # Wait for user input
         command = input()
-        if command == "echo ":
-            print(command[5:])
-        else:
-             print(f"{command}: command not found")
+        print(command[5:])
+        # else:
+        #      print(f"{command}: command not found")
 
 
 
