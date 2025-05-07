@@ -12,6 +12,8 @@ def main():
 
         if command.startswith("echo"):
             print(command[5:])
+        elif command.startswith("exit"):
+            sys.exit(0)
         else:
             print(f"{command}: command not found")
         
